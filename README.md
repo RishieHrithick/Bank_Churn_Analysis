@@ -31,9 +31,9 @@ Before analyzing the data, a rigorous data quality check was performed using Pos
 ## Phase 2: Key SQL Insights
 The initial exploratory analysis was conducted entirely in SQL, uncovering several immediate behavioral trends:
 
-* **Baseline Churn:** The overall customer churn rate is **[XX.X%]**.
-* **Product Holding Risk:** Customers with only 1 product churn at a rate of **[XX.X%]**, showing a significant flight risk compared to multi-product holders.
-* **Demographic Variance:** The churn rate fluctuates significantly by geography, with **[Country]** showing the highest exit rate at **[XX.X%]**.
-* **High-Value Flight Risks:** Identified **[X]** high-value customers (Balance > $100,000) who are inactive and have exited, representing **$[X,XXX,XXX]** in lost capital. 
+* **Baseline Churn:** The overall customer churn rate is **[20.37%]**.
+* **Product Holding Risk:** There is a massive retention benefit in cross-selling. Customers with 1 product churn at 27.71%, but this drops to just 7.58% for 2-product holders. However, a critical anomaly exists: customers holding 3 or 4 products experience catastrophic churn (82% and 100% respectively), indicating a severe issue with upper-tier product offerings or customer experience.
+* **Demographic Variance:** The churn rate fluctuates significantly by geography, with **[Germany]** showing the highest exit rate at **[32.44%]**.
+* **High-Value Flight Risks:** Identified **[2356]** high-value customers (Balance > $100,000) who are inactive and have exited, representing **$[312265430.72]** in lost capital. 
 
 *(Detailed queries for these metrics can be found in the `/sql` directory).*
