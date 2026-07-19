@@ -15,8 +15,8 @@ This project analyzes a 10,000-record dataset of bank customers to identify the 
 ## 📂 Project Structure
 
 * `/sql` - Contains all SQL scripts used for data cleaning, aggregation, and feature extraction.
-* *(Upcoming)* `/notebooks` - Python EDA, statistical testing, and predictive modeling.
-* *(Upcoming)* `/dashboard` - Visualizations and final Tableau dashboard link.
+* `/notebooks` - Python EDA, statistical testing, and predictive modeling.
+* `/dashboard` - Visualizations and final Tableau dashboard link.
 
 ---
 
